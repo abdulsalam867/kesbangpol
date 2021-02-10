@@ -1,0 +1,142 @@
+.widget {
+	margin-bottom: 30px;
+}
+
+.widget-title {
+	background-color: #333333;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 8px 10px;
+	text-transform: uppercase;
+}
+
+.latest-news-item {
+	margin-top: 15px;
+}
+
+.latest-news {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.item-thumbnail {
+	float: left;
+	width: 30%;
+	margin-right: 10px;
+}
+
+.item-thumbnail img {
+	display: block;
+}
+
+.lates-news-item .item-thumbnail {
+	margin-right: 20px;
+}
+
+.news-title {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.news-title a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.news-date {
+	font-size:13px;
+	font-style: italic;
+	color: #333333;
+}
+
+/*Sosial Widget*/
+.widget .widget-content table {
+	width: 100%;
+}
+
+.widget .widget-content table tr td {
+	width: 20%;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.widget .widget-content table tr td p {
+	line-height: 1px;
+	font-size: 12px;
+}
+
+.widget .widget-content table tr td i {
+	padding-bottom: 20px;
+}
+
+/*tags */
+.widget .widget-content .sidebar-tags ul {
+	list-style: none;
+	padding-left: 0;
+	line-height: 40px;
+}
+
+.widget .widget-content .sidebar-tags ul li {
+	display: inline;
+	background-color: #edeeef;
+	border:1px solid #dfe0e0;
+	color: #333333;
+	font-size: 12px;
+	padding: 8px 10px;
+	margin-right:5px;
+}
+
+.widget .widget-content .sidebar-tags ul li:hover {
+	background-color: var(--main-accent);
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.widget .widget-content .sidebar-tags ul li a:hover {
+	background-color: var(--main-accent);
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/*Categories Widget*/
+.widget .widget-content .sidebar-categories ul {
+	list-style: none;
+}
+
+.widget .widget-content .sidebar-categories ul li {
+	border-bottom: 1px solid #edeeef;
+	margin-left: -30px;
+	padding-bottom: 8px;
+	padding-top:8px;
+}
+
+.widget .widget-content .sidebar-categories ul li::before {
+	content: '\f105';
+	font-family: 'Font Awesome 5 Free';
+	display: inline-block;
+	padding-right: 10px;
+	font-weight: 600;
+}
+
+.widget .widget-content .sidebar-categories ul li a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.widget .widget-content .sidebar-categories ul li a:hover {
+	color: var(--main-accent);
+}
+
+
+.widget .widget-content .sidebar-categories ul li span {
+	background-color: var(--main-accent);
+	float: right;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 5px 10px;
+}

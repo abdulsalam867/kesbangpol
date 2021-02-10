@@ -1,0 +1,146 @@
+.top-bar {
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e2e0e0;
+	padding-top: 7px;
+}
+
+.breaking-title {
+	background: var(--main-accent);
+	padding: 5px 15px 0px 15px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.breaking-title::after {
+	top: 100%;
+	left: 0;
+	border: solid transparent;
+	content: "";
+	position: absolute;
+}
+.top-bar .breaking-title h6 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 12px;
+}
+
+.b-news-item {
+	width: 1024px;
+}
+
+.b-news-item a {
+	color: #333333;
+	font-size: 14px;
+}
+
+.b-news-item a:hover {
+	text-decoration: none;
+}
+
+.owl-carousel.owl-theme.breaking .owl-nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+}
+
+.owl-carousel.owl-theme.breaking .owl-nav > div {
+	background: var(--main-accent);
+	border: 0;
+	color: white;
+}
+
+.owl-carousel.owl-theme .owl-nav > div {
+	margin: 0 3px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+	font-size: 12px;
+	transition: 400ms;
+	-webkit-transition: 400ms;
+}
+
+/* social media icon */
+.top-bar-social ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.top-bar-social li {
+	display: inline-block;
+	padding: 3px;
+}
+
+.top-bar-social ul li a {
+	color: #c2c1c1;
+	margin-right: 10px;
+}
+
+.top-bar-social ul li a:hover {
+	color: var(--main-accent);
+}
+
+/*header*/
+.header-content {
+	padding: 15px 0;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.searc-form {
+	width: 300px;
+	float: right;
+	padding-top: 25px;
+}
+
+
+/*navigation*/
+.main-navigation {
+	margin-top: 15px;
+}
+
+.navbar-nav .nav-item {
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 0;
+	margin: 0px 15px;
+}
+
+.dropdown-menu {
+	margin-top: 7px;
+}
+
+.dropdown-item {
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.nav-item {
+	color: #ffffff !important;
+}
+
+.nav-item .nav-link:hover {
+	color: var(--main-accent) !important;
+}
+
+
+.dropdown-menu {
+	background-color: #343a40 !important;
+	border-radius: 0;
+}
+
+.dropdown-item {
+	color: #6c757d !important;
+}
+
+.dropdown-item:hover {
+	color: var(--main-accent) !important;
+	background-color: #343a40 !important;
+}

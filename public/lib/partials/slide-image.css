@@ -1,0 +1,15 @@
+.slider .post {
+	padding: 0;
+}
+
+.slider .post .featured-img {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: flex;
+}
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
